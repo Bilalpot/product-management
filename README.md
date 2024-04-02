@@ -26,7 +26,7 @@ This is a Product Management project built using Next.js, TypeScript, and Tailwi
    - Update Firebase configuration in `.env.local` file.
 4. Run the project: `$ npm run dev`
 5. Access the application at `http://localhost:3000`
-6. Access the Live application at `http://localhost:3000`
+6. Access the Live application at `https://product-management-chi.vercel.app/`
 
 # Next.js Product Catalog
 

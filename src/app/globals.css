@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+#nprogress .bar {
+  background: white !important; /* Set color to white */
+  height: 5px !important; /* Set height */
+}

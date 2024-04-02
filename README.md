@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Product Management Project
 
-## Getting Started
+This is a Product Management project built using Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Product Listing**: View a list of products with details such as name, description, price, and image.
+- **Product Details**: Click on a product to view more details including specifications and reviews.
+- **Add/Edit/Delete Products**: Admin users can add new products, edit existing products, and delete products.
+- **Responsive Design**: Mobile-friendly layout using Tailwind CSS for a seamless user experience on different devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: React framework for server-rendered React applications.
+- **TypeScript**: Typed superset of JavaScript for improved code quality and developer productivity.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **Vercel**: For Deployment.
+- **ESLint and Prettier**: Used for code linting and formatting to maintain code quality.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Setup Instructions
 
-## Learn More
+1. Clone the repository: `$ git clone https://github.com/your-repo/product-management.git`
+2. Install dependencies: `$ npm install`
+3. Set up Firebase:
+   - Create a Firebase project and set up authentication.
+   - Update Firebase configuration in `.env.local` file.
+4. Run the project: `$ npm run dev`
+5. Access the application at `http://localhost:3000`
 
-To learn more about Next.js, take a look at the following resources:
+# Next.js Product Catalog
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is a simple Next.js application that fetches product data from an external API and displays it in a product catalog. It includes features such as:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Listing all products
+- Displaying detailed information about each product
+- Form to create new products
 
-## Deploy on Vercel
+## Why Chosen Approaches
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js: Chosen for its simplicity and SSR capabilities, which improves SEO and performance.
+- TypeScript: Chosen for its static type checking and enhanced developer productivity.
+- Tailwind CSS: Chosen for its utility-first approach, which allows rapid styling without writing custom CSS.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Improvements and Extensions
+
+Given more time, the following improvements and extensions could be implemented:
+
+- Authentication and authorization for the form to create new products.
+- Pagination for the product list to handle a large number of products efficiently.
+- Adding search and filtering functionality to the product catalog.
+- Implementing client-side form validation for the product creation form.

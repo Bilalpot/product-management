@@ -3,9 +3,7 @@ import Link from 'next/link';
 import useFetchProductsQuery from '@/queries/fetchProducts';
 import { Product } from '@/types/Product';
 export default function Home() {
-  const { data: products, isLoading, isError } = useFetchProductsQuery();
-
-  if (isLoading) return <div>Loading...</div>;
+  const { data: products, isError } = useFetchProductsQuery();
   if (isError) return <div>Error fetching products</div>;
 
   return (

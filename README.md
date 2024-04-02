@@ -19,13 +19,14 @@ This is a Product Management project built using Next.js, TypeScript, and Tailwi
 
 ## Setup Instructions
 
-1. Clone the repository: `$ git clone https://github.com/your-repo/product-management.git`
+1. Clone the repository: `$ git clone https://github.com/Bilalpot/product-management.git`
 2. Install dependencies: `$ npm install`
 3. Set up Firebase:
    - Create a Firebase project and set up authentication.
    - Update Firebase configuration in `.env.local` file.
 4. Run the project: `$ npm run dev`
 5. Access the application at `http://localhost:3000`
+6. Access the Live application at `http://localhost:3000`
 
 # Next.js Product Catalog
 
